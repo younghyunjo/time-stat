@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <WakeUpTimes></WakeUpTimes>
+    <Sleep></Sleep>
   </div>
 </template>
 
 <script>
-import WakeUpTimes from '@/components/wake-up-times/WakeUpTimes'
+import Sleep from '@/components/sleep/sleep'
 
 export default {
-    components: {
-        'WakeUpTimes': WakeUpTimes,
-    },
+  components: {
+    'Sleep': Sleep
+  },
 }
 </script>
